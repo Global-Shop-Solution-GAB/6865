@@ -1,0 +1,18 @@
+﻿Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Function.Intrinsic.UI.UsePixels ' Allows you to use Pixels instead of Twips throughout
+
+F.Intrinsic.Control.If(V.Caller.Hook,=,38411)
+	V.Passed.000056.Set("Truck Load")
+	F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000056,"Lock",0)
+	F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000057,"Hide",1)	
+F.Intrinsic.Control.EndIf
+
+Program.Sub.Main.End
+
+Program.Sub.Comments.Start
+${$5$}$20.1.8413.19752$}$1
+${$6$}$tsmith$}$20230130141841003$}$xqPbj9atw05FglvzeFsZ9cqXP+qvG6tXBCx4lXmUqA9jF8yFrl3s6o7WyBTizI5bp9JlN07yXDw=
+Program.Sub.Comments.End
